@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  body {
+    background-color: #1A1A1C;
+    margin: 50px; /* Increase margin from right and left */
+  }
+
+  button {
+    background-color: #1A1A1C;
+    color: white;
+    border: 1px solid #8E8E8E;
+    padding: 7px 7px 7px 7px;
+    height: 40px;
+    justify-content: space-between;
+  }
+
+  #searchBtn {
+    width: 60%;
+  }
+
+  #sortMktCapBtn{
+    width: 17%;
+  }
+
+  #sortPercentageBtn{
+    width: 17%;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px; /* Add margin from top */
+  }
+
+  td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 2px solid #8E8E8E;
+  }
+
+  th:last-child, td:last-child {
+    border-right: none;
+  }
+
+  th:first-child, td:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .column-line {
+    border-right: none;
+  }
